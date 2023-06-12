@@ -1,0 +1,30 @@
+npm config set http_proxy=http://address:8080
+npm config set fetch-retry-mintimeout 20000
+npm config set fetch-retry-maxtimeout 120000
+
+npm cache clean --force
+npm rebuild node-sass
+
+npm uninstall node-sass
+npm install sass
+
+npm i node-gyp
+npm install node-sass@4.5.0
+
+use del -f instead of rm -f
+
+npm config set proxy http://proxy.company.com:8080
+npm config set https-proxy http://proxy.company.com:8080
+npm config set http_proxy=http://address:8080
+
+npm config delete proxy
+npm install nrm
+
+npm install -g @angular/cli
+
+replace prefix -g by prefix --location=global
+
+
+
+
+https://nodejs.org/dist/v14.16.1/win-x64/
